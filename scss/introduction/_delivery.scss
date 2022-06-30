@@ -1,0 +1,20 @@
+.delivery-box {
+    @include section-base(30px);
+    .container {
+        h3 {
+            font-size: 2.57rem;
+            color: #262424;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        p {
+            color: #7a7a7a;
+            font-size: 1.14rem;
+            text-align: center;
+            padding: 0 372px;
+        }
+    }
+
+    margin-bottom: 20px;
+}

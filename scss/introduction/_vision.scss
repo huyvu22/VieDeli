@@ -1,0 +1,54 @@
+.vision-box {
+    @include section-base(30px);
+    .vision-box__inner {
+        h2 {
+            text-align: center;
+            font-size: 3.43rem;
+            color: #373737;
+            font-weight: 300;
+        }
+    
+        p {
+            font-size: 1.14rem;
+            color: #696969;
+            text-align: center;
+            padding: 0 300px;
+        }
+        margin-bottom: 100px;
+    }
+
+    .vision-box__inner--lists {
+        .vision-box__inner--item {
+            border: 1px solid #e3e0dd;
+            padding: 70px 30px 40px 30px;
+            position: relative;
+            h3 {
+                text-align: center;
+                color: #373737 ;
+                font-size: 1.28rem;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 1.14rem;
+                color: #696969;
+                text-align: center;
+            }
+
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 88px;
+                height: 88px;
+                background: url('../../images/intro-coffe-icon.png') no-repeat;
+                position: absolute;
+                top: -44px;
+                left: 38%;
+            }
+        }
+
+        .col {
+            padding: 0 10px;
+        }
+    }
+}

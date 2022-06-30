@@ -1,0 +1,18 @@
+.about-box {
+    @include section-base(30px);
+    .about-box__inner {
+        h2 {
+            text-align: center;
+            font-size: 3.43rem;
+            color: #373737;
+            font-weight: 300;
+        }
+    
+        p {
+            font-size: 1.14rem;
+            color: #696969;
+            text-align: center;
+            padding: 0 300px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.story-box {
+    @include section-base (30px);
+    position: relative;
+    .story-box__inner {
+        width: 32%;
+        background-color: #fff;
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        right: 0;
+        .story-box__inner--content {
+            padding: 40px 100px;
+            h2 {
+                font-size: 3.1rem;
+                color: #373737;
+                font-weight: 300;
+                text-align: center;
+                line-height: 1.2;
+            }
+
+            p {
+                font-size: 1.14rem;
+                color: #373737;
+                text-align: center;
+            }
+        }
+
+    }
+}

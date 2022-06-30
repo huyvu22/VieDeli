@@ -1,0 +1,47 @@
+.intro-box {
+    @include section-base(30px);
+
+    .inrtro-box__title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        h1 {
+            margin-bottom: -5px;
+            font-size: 2.57rem;
+            color: #181818;
+        }
+    
+        a {
+            font-size: 0.93rem;
+            color: #acacac;
+        }
+    }
+
+    .intro-box__inner {
+        .intro-box__inner--content {
+            margin-top: 65px;
+            p {
+                font-size: 1.14rem;
+                color: #828282;
+            }
+        }
+    }
+
+    .quotes {
+        text-align: center;
+        padding: 90px 0 35px 0;
+    }
+
+    h2 {
+        text-align: center;
+        color: #7a7a7a;
+        font-size: 2.8rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 98px;
+    }
+
+    .col {
+        padding: 0 15px;
+    }
+
+}
